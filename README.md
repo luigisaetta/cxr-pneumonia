@@ -12,15 +12,19 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 | prepare_dataset | code to create train and test datasets with production of TFRecord files | https://github.com/luigisaetta/cxr-pneumonia/blob/main/prepare_dataset.ipynb | 
 | build-and-train-on-tpu | Build and training of the model (on Kaggle TPU), with production of statistics per thresholds (SENS, SPEC...) and F1-score plot | https://github.com/luigisaetta/cxr-pneumonia/blob/main/build-and-train-on-tpu.ipynb |
 | InferenceDCM | Load a set of DCM images, makes some check, apply model and predict | https://github.com/luigisaetta/cxr-pneumonia/blob/main/InferenceDCM.ipynb |
+| Inference-tests | Predictions on all the images in the test set. Compute metrics (Sens, Spec, Precision, F1score) for different thresholds; Plot Precision vs Recall and F1-score vs thresholds | https://github.com/luigisaetta/cxr-pneumonia/blob/main/Inference-tests.ipynb |
 
 ### Features:
 * Train and Test datasets have been prepared compressing original images (PNG 1024x1024) in JPEG 512x512 and packing all in **TensorFlow TFRecord** files
+* Train set is balanced (50% pneumonia), test set has a 25% of pneumonia
 * TFRecord files published in **Kaggle Dataset**: https://www.kaggle.com/luigisaetta/nih-cxr-pneu512
 * Training on **TPU** (Kaggle)
+* Using Google **EfficientNet B4** 
 * For training, it is adopted **K-fold Cross Validation** (K=5)
 * Learning Rate Scheduler to control variation of Learning Rate during epochs
-* 5 models are produces building an **Ensemble**: predictions are average from prediction from each single model
-* code for controls and inference on **DICOM** files
+* **Ensemble** of K=5 models: predictions are average from prediction from each single model
+* Code for controls and inference on **DICOM** files
+* Plot of Images Intensity profiles for different diseases
 
                                                                   
 ### Updates
