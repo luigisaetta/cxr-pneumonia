@@ -7,6 +7,7 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 | File name     | Description                     |Link.                                                              |
 | ------------- |---------------------------------|-------------------------------------------------------------------|
 | EDA     | EDA on full dataset (112120 imgs) and on train and test set| https://github.com/luigisaetta/cxr-pneumonia/blob/main/EDA.ipynb  |
+| EDA-train-test | EDA only on data selected for train and test | https://github.com/luigisaetta/cxr-pneumonia/blob/main/EDA-train-test.ipynb |
 | Intensity Profiles | Analysis of Intensity Profiles with plots | https://github.com/luigisaetta/cxr-pneumonia/blob/main/Intensity%20Profiles.ipynb |
 | prepare_dataset | code to create train and test datasets with production of TFRecord files | https://github.com/luigisaetta/cxr-pneumonia/blob/main/prepare_dataset.ipynb | 
 | build-and-train-on-tpu | Build and training of the model (on Kaggle TPU), with production of statistics per thresholds and F1-score plot | https://github.com/luigisaetta/cxr-pneumonia/blob/main/build-and-train-on-tpu.ipynb |
@@ -16,7 +17,7 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 * TFRecord files published in **Kaggle Dataset**: https://www.kaggle.com/luigisaetta/nih-cxr-pneu512
 * Training on **TPU** (Kaggle)
 * For training, it is adopted **K-fold Cross Validation** (K=5)
-* Learning Rate SCheduler to control variation of Learning Rate during epochs
+* Learning Rate Scheduler to control variation of Learning Rate during epochs
 * 5 models are produces building an **Ensemble**: predictions are average from prediction from each single model
 * code for controls and inference on **DICOM** files
 
