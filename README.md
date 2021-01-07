@@ -9,9 +9,9 @@ Last update: 07/01/2021
 
 ### List of files to review
 
-| File name     | Description   |Link.                                         |
-| ------------- | ------------- |----------------------------------------------|
-| Content Cell  | Content Cell  |https://github.com/luigisaetta/cxr-pneumonia  |
-| Content Cell  | Content Cell  |                                              |
+| File name     | Description                        |Link.                                                              |
+| ------------- | -----------------------------------|-------------------------------------------------------------------|
+| EDA.ipynb     | EDA on full dataset (112120 images)| https://github.com/luigisaetta/cxr-pneumonia                      |
+|               | and on train and test set          |                                                                   |
 
 
