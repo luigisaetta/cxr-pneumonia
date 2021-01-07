@@ -13,6 +13,7 @@ Last update: 07/01/2021
 | ------------- |---------------------------------|-------------------------------------------------------------------|
 | EDA     | EDA on full dataset (112120 imgs) and on train and test set| https://github.com/luigisaetta/cxr-pneumonia/blob/main/EDA.ipynb  |
 | Intensity Profiles | Analysis of Intensity Profiles with plots | https://github.com/luigisaetta/cxr-pneumonia/blob/main/Intensity%20Profiles.ipynb |
+| build-and-train-on-tpu | Build and training of the model (on Kaggle TPU), with production of statistics per thresholds and F1-score plot | https://github.com/luigisaetta/cxr-pneumonia/blob/main/build-and-train-on-tpu.ipynb |
                                                                   
 
 
