@@ -25,7 +25,7 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 * **Ensemble** of K=5 models: predictions are average from prediction from each single model
 * Code for controls and inference on **DICOM** files
 * Plot of Images Intensity profiles for different diseases
-* Model interpretaion with GRAD-Cam
+* Model interpretation with GRAD-Cam
                                                                   
 ### Updates
 Last update: 07/01/2021
