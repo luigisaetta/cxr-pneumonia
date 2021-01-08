@@ -2,6 +2,8 @@
 
 This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** Dataset for Pneumonia Detection
 
+![GRAD-Cam](/images/grad-cam.png)
+
 ### List of files 
 
 | File name     | Description                     |Link.                                                              |
