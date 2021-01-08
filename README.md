@@ -15,6 +15,7 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 | build-and-train-on-tpu | Build and training of the model (on Kaggle TPU), with production of statistics per thresholds (SENS, SPEC...) and F1-score plot | https://github.com/luigisaetta/cxr-pneumonia/blob/main/build-and-train-on-tpu.ipynb |
 | InferenceDCM | Load a set of DCM images, makes some check, apply model and predict | https://github.com/luigisaetta/cxr-pneumonia/blob/main/InferenceDCM.ipynb |
 | Inference-tests | Predictions on all the images in the test set. Compute metrics (Sens, Spec, Precision, F1score) for different thresholds; Plot Precision vs Recall and F1-score vs thresholds | https://github.com/luigisaetta/cxr-pneumonia/blob/main/Inference-tests.ipynb |
+| SaveLoadModels | Code to save architecture of the models in JSON format and to load models | https://github.com/luigisaetta/cxr-pneumonia/blob/main/SaveLoadModels.ipynb |
 
 ### Features:
 * Train and Test datasets have been prepared compressing original images (PNG 1024x1024) in JPEG 512x512 and packing all in **TensorFlow TFRecord** files
