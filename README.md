@@ -8,7 +8,7 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 
 | File name     | Description                     |Link.                                                              |
 | ------------- |---------------------------------|-------------------------------------------------------------------|
-| EDA     | EDA on full dataset (112120 imgs) | https://github.com/luigisaetta/cxr-pneumonia/blob/main/EDA.ipynb  |
+| EDA     | EDA on full dataset (112120 imgs) | [EDA.ipynb](EDA.ipynb)  |
 | EDA-train-test | EDA only on data selected for train and test | https://github.com/luigisaetta/cxr-pneumonia/blob/main/EDA-train-test.ipynb |
 | Intensity Profiles | Analysis of Intensity Profiles with plots | https://github.com/luigisaetta/cxr-pneumonia/blob/main/Intensity%20Profiles.ipynb |
 | prepare_dataset | code to select images for train and test datasets with production of TFRecord files | https://github.com/luigisaetta/cxr-pneumonia/blob/main/prepare_dataset.ipynb | 
@@ -31,6 +31,9 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 * Plot of Images Intensity profiles for different diseases
 * Model interpretation with GRAD-Cam
 * Compute best threshold, based on F1-score
+
+### Original FULL dataset
+The FULL NIH CXR-17 Dataset can be obtained from https://www.kaggle.com/nih-chest-xrays/data
                                                                   
 ### Updates
 Last update: 07/01/2021
