@@ -9,9 +9,9 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 | File name     | Description                     |Link.                                                              |
 | ------------- |---------------------------------|-------------------------------------------------------------------|
 | EDA     | EDA on full dataset (112120 imgs) | [EDA.ipynb](EDA.ipynb)  |
-| EDA-train-test | EDA only on data selected for train and test | (EDA-train-test.ipynb) |
-| Intensity Profiles | Analysis of Intensity Profiles with plots | https://github.com/luigisaetta/cxr-pneumonia/blob/main/Intensity%20Profiles.ipynb |
-| prepare_dataset | code to select images for train and test datasets with production of TFRecord files | https://github.com/luigisaetta/cxr-pneumonia/blob/main/prepare_dataset.ipynb | 
+| EDA-train-test | EDA only on data selected for train and test | [EDA-train-test.ipynb](EDA-train-test.ipynb) |
+| Intensity Profiles | Analysis of Intensity Profiles with plots | [Intensity Profiles.ipynb](Intensity%20Profiles.ipynb) |
+| prepare_dataset | code to select images for train and test datasets with production of TFRecord files | [prepare_dataset.ipynb](prepare_dataset.ipynb) | 
 | build-and-train-on-tpu | Build and training of the model (on Kaggle TPU), with production of statistics (SENS, SPEC...) per thresholds and F1-score plot | https://github.com/luigisaetta/cxr-pneumonia/blob/main/build-and-train-on-tpu.ipynb |
 | InferenceDCM | Load a set of DCM images, makes some check, apply model and predict | https://github.com/luigisaetta/cxr-pneumonia/blob/main/InferenceDCM.ipynb |
 | Inference-tests | Predictions on all the images in the test set. Compute metrics (Sens, Spec, Precision, F1score) for different thresholds; Plot Precision vs Recall and F1-score vs thresholds | https://github.com/luigisaetta/cxr-pneumonia/blob/main/Inference-tests.ipynb |
