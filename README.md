@@ -17,6 +17,7 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 | Inference-tests | Predictions on all the images in the test set. Compute metrics (Sens, Spec, Precision, F1score) for different thresholds; Plot Precision vs Recall and F1-score vs thresholds | [Inference-tests.ipynb](Inference-tests.ipynb) |
 | SaveLoadModels | Code to save architecture of the models in JSON format and to load models | [SaveLoadModels.ipynb](SaveLoadModels.ipynb) |
 | AnalyzeStats | Code and plot to analyze F1-score as function of threshold | [AnalyzeStats.ipynb](AnalyzeStats.ipynb) | 
+| FDA Submission | Example of document for FDA submission | [FDA Submission V3](FDA%20SubmissionCXR-V3.pdf) |
 
 ### Features:
 * Train and Test datasets have been prepared compressing original images (PNG 1024x1024) in JPEG 512x512 and packing all in **TensorFlow TFRecord** files
@@ -28,9 +29,10 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 * **Learning Rate Scheduler** to control variation of Learning Rate during epochs
 * **Ensemble** of K=5 models: predictions are average from prediction from each single model
 * Code for controls and inference on **DICOM** files
-* Plot of Images Intensity profiles for different diseases
-* Model interpretation with GRAD-Cam
-* Compute best threshold, based on F1-score
+* Plot of **Images Intensity Profiles** for different diseases
+* Compute best threshold, based on **F1-score**
+* Model interpretation with **GRAD-Cam**
+
 
 ### Original FULL dataset
 The FULL NIH CXR-17 Dataset can be obtained from https://www.kaggle.com/nih-chest-xrays/data
