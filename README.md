@@ -29,6 +29,7 @@ This repository contains all my work done on the **NIH-Chest X-Rays 14 (2017)** 
 * Code for controls and inference on **DICOM** files
 * Plot of Images Intensity profiles for different diseases
 * Model interpretation with GRAD-Cam
+* Compute best threshold, based on F1-score
                                                                   
 ### Updates
 Last update: 07/01/2021
